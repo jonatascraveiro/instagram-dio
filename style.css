@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@keyframes fotos-slide {
+  0% {
+    background-image: url("img/img1.png");
+  }
+
+  40% {
+    background-image: url("img/img2.png");
+  }
+
+  80% {
+    background-image: url("img/img3.png");
+  }
+
+  100% {
+    background-image: url("img/img1.png");
+  }
+}
+
+.container-slide {
+  background-image: url("img/img1.png");
+  position: relative;
+  width: 242px;
+  height: 537px;
+  top: -614px;
+  left: 161px;
+  animation-duration: 12s;
+  animation-name: fotos-slide;
+  animation-iteration-count: infinite;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-login>div {
+  margin: 10px
+}
+
+.form-login-input {
+  width: 100%;
+  align-items: start;
+}
+
+.form-login-input>span {
+  display: block;
+  padding: 5px 10px
+}
+
+.form-login>div>input {
+  background-color: #efefef;
+  padding: 10px 10px;
+  width: -webkit-fill-available;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+}
+
+.logo {
+  align-items: center;
+
+  width: 50%;
+  margin: 1rem;
+}
+
+.formularios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: black;
+  max-width: 400px;
+}
+
+.form-container {
+  background-color: white;
+  border: 1px solid rgb(205, 204, 204);
+  padding: 1rem 2rem;
+  width: 70%
+}
+
+.form-criar-conta {
+  color: black;
+  text-align: center;
+}
+
+.form-criar-conta a {
+  color: #0095f6;
+  font-weight: 600;
+}
+
+.form-facebook {
+  color: #385185;
+}
+
+.form-esqueceu-senha {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+}
+
+.form-facebook {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.icone {
+  width: 20px;
+  margin-right: 10px;
+}
+
+button.submit {
+  background-color: #0095f6;
+  color: white;
+  padding: .3rem 5rem;
+  border: transparent;
+  border-radius: 4px;
+  margin: 8px 40px;
+  width: 100%;
+}
+
+.form-obter-app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px
+}
+
+.obter-app {
+  margin: 10px;
+}
+
+.form-lojas-app {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-app {
+  width: 40%;
+  margin: 10px;
+}
+
+.linha {
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.form-ou {
+  color: #8e8e8e;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
